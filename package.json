@@ -1,6 +1,23 @@
 {
   "name": "saint-parse-smtp-adapter",
   "version": "0.0.1",
+  "description": "Send custom emails from parse with SMTP access",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "parse",
+    "email",
+    "smtp",
+    "adapter",
+    "parseplatform.org"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vahidalizad/simple-parse-smtp-adapter"
+  },
+  "author": "adrian@saintborn",
+  "dependencies": {
+    "email-templates": "^5.0.2",
+    "twig": "^1.12.0"
+  }
 }
