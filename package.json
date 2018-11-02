@@ -1,7 +1,7 @@
 {
   "name": "saint-parse-smtp-adapter",
   "version": "0.0.1",
-  "description": "Send custom emails from parse with SMTP access",
+  "description": "Send emails from parse-server through SMTP servers using twig or pug templates.",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -9,7 +9,8 @@
     "email",
     "smtp",
     "adapter",
-    "parseplatform.org"
+    "parseplatform.org",
+    "twig"
   ],
   "repository": {
     "type": "git",
